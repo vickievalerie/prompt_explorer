@@ -29,7 +29,7 @@
     {
         "category": "painting/style",
         "title" : "Using painting styles",
-        "values" : ["baroque","abstract","modern"],
+        "values" : ["baroque","abstract","modern", "impressionism", "surrealism"],
         "values_ru" : ["барокко","абстракционизм","модерн", "импрессионизм", "сюрреализм"],
         "prompt" : "portrait of a young woman in a luxurious red dress, in {} style",
         "prompt_ru" : "портрет юной женщины в красном роскошном платье, в стиле {}"
