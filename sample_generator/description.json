@@ -1,0 +1,10 @@
+[
+    {
+        "category": "photo/lens",
+        "title" : "Using lenses",
+        "values" : ["18mm fisheye","50mm portrait","300mm telephoto"],
+        "values_ru" : ["18mm рыбий глаз","50mm портретный","300mm длиннофокусный"],
+        "prompt" : "portrait photograph of a beautiful woman in the city, {} lens",
+        "prompt_ru" : "портретная фотография женщины в городе, {} объектив"
+    }
+]
