@@ -6,8 +6,7 @@
         "values_ru" : ["18mm рыбий глаз","50mm портретный","300mm длиннофокусный"],
         "prompt" : "portrait photograph of a beautiful woman in the city, {} lens",
         "prompt_ru" : "портретная фотография женщины в городе, {} объектив"
-    }
-
+    },
     {
         "category": "general/composition",
         "title" : "Composition tricks",
@@ -15,8 +14,7 @@
         "values_ru" : ["помести объект немного левее центра","симметричная композиция"],
         "prompt" : "still life oil painting of an apple, {}",
         "prompt_ru" : "натюрморт яблока маслом, {}"
-    }
-    
+    },
     {
         "category": "general/materials",
         "title" : "Using different materials",
@@ -24,8 +22,7 @@
         "values_ru" : ["полупрозрачный","каменный","деревянный"],
         "prompt" : "a statue of a magestic cat, {} material",
         "prompt_ru" : "статуя величественной кошки, {} материал"
-    }
-
+    },
     {
         "category": "painting/style",
         "title" : "Using painting styles",
@@ -33,14 +30,13 @@
         "values_ru" : ["барокко","абстракционизм","модерн", "импрессионизм", "сюрреализм"],
         "prompt" : "portrait of a young woman in a luxurious red dress, in {} style",
         "prompt_ru" : "портрет юной женщины в красном роскошном платье, в стиле {}"
-    }
-
+    },
     {
         "category": "painting/paint",
         "title" : "Using different paint types",
         "values" : ["watercolor","gouache","oil"],
         "values_ru" : ["акварель","гуашь","масло"],
-        "prompt" : "{} painting of the eifel tower in France",
-        "prompt_ru" : "{}, картина эйвилевой башни в Париже"
+        "prompt" : "{} painting of the eiffel tower in France",
+        "prompt_ru" : "{}, картина эйфелевой башни в Париже"
     }
 ]
