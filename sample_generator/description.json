@@ -4,8 +4,16 @@
         "title" : "Using lenses",
         "values" : ["18mm fisheye","50mm portrait","300mm telephoto"],
         "values_ru" : ["18mm рыбий глаз","50mm портретный","300mm длиннофокусный"],
-        "prompt" : "portrait photograph of a beautiful woman in the city, {} lens",
-        "prompt_ru" : "портретная фотография женщины в городе, {} объектив"
+        "prompt" : "portrait photograph of a beautiful fair-haired woman on the city street, looking into the camera {} lens",
+        "prompt_ru" : "портретная фотография красивой женщины-шатенки на улице города, смотрит в камеру, объектив {}"
+    },
+    {
+        "category": "photo/focus",
+        "title" : "Using focus",
+        "values" : ["nice bokeh","sharp focus","soft focus"],
+        "values_ru" : ["nice bokeh","sharp focus","soft focus"],
+        "prompt" : "portrait photograph of a young girl in the garden, Canon EOS-5D, 50mm portrait lens, {}",
+        "prompt_ru" : "портретная фотография девочки в саду, смотрит в камеру, Canon EOS-5D, портретный объектив 50mm, {}"
     },
     {
         "category": "general/composition",
@@ -20,16 +28,16 @@
         "title" : "Using different materials",
         "values" : ["translucent","rough stone","wood"],
         "values_ru" : ["полупрозрачный","каменный","деревянный"],
-        "prompt" : "a statue of a magestic cat, {} material",
-        "prompt_ru" : "статуя величественной кошки, {} материал"
+        "prompt" : "a statue of a magestic cat inside the museum, {} material",
+        "prompt_ru" : "статуя величественной кошки в музее, {} материал"
     },
     {
         "category": "painting/style",
         "title" : "Using painting styles",
-        "values" : ["baroque","abstract","modern", "impressionism", "surrealism"],
-        "values_ru" : ["барокко","абстракционизм","модерн", "импрессионизм", "сюрреализм"],
-        "prompt" : "portrait of a young woman in a luxurious red dress, in {} style",
-        "prompt_ru" : "портрет юной женщины в красном роскошном платье, в стиле {}"
+        "values" : ["baroque","abstract","modern", "impressionism", "surrealism", "cubism"],
+        "values_ru" : ["барокко","абстракционизм","модерн", "импрессионизм", "сюрреализм", "кубизм"],
+        "prompt" : "portrait painting of a young woman in a luxurious red dress, in {} style, oil on canvas",
+        "prompt_ru" : "портрет красивой юной женщины в красном роскошном платье, в стиле {}, холст, масло"
     },
     {
         "category": "painting/paint",
@@ -37,6 +45,14 @@
         "values" : ["watercolor","gouache","oil"],
         "values_ru" : ["акварель","гуашь","масло"],
         "prompt" : "{} painting of the eiffel tower in France",
-        "prompt_ru" : "{}, картина эйфелевой башни в Париже"
+        "prompt_ru" : "Картина Эйфелевой башни в Париже, {}"
+    },
+    {
+        "category": "painting/artists",
+        "title" : "Using artist names",
+        "values" : ["Ilya Repin","Vincent Van Gogh","Kazimir Malevich","Banksy"],
+        "values_ru" : ["Ильи Репина","Винсент Ван Гога","Казимира Малевича", "Бэнкси"],
+        "prompt" : "oil painting of a student in class, {}",
+        "prompt_ru" : "студент в аудитории, картина маслом, в стиле {}"
     }
 ]
