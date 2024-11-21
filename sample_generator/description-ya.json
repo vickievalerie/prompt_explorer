@@ -1,0 +1,82 @@
+[
+    {
+        "category": "photo/lens",
+        "title" : "Using lenses",
+        "values" : ["18mm fisheye","50mm portrait","300mm telephoto"],
+        "values_ru" : ["18mm рыбий глаз","50mm портретный","300mm длиннофокусный"],
+        "prompt" : "{}, portrait photograph of a woman in the city street, looking into the camera",
+        "prompt_ru" : "объектив {}, портретная фотография красивой женщины-шатенки на улице города, смотрит в камеру, Canon EOS-5D"
+    },
+    {
+        "category": "photo/focus",
+        "title" : "Using focus",
+        "values" : ["nice bokeh","sharp focus","soft focus"],
+        "values_ru" : ["nice bokeh","sharp focus, wide depth of field","soft focus"],
+        "prompt" : "{} portrait photograph of a woman in the city street, looking into the camera, Canon EOS-5D",
+        "prompt_ru" : "{} портретная фотография красивой женщины-шатенки на улице города, смотрит в камеру, Canon EOS-5D"
+    },
+    {
+        "category": "photo/lights",
+        "title" : "Using lights",
+        "values" : ["portrait studio lightning","back lightning","dark studio, back lightning"],
+        "values_ru" : ["портретный студийный свет","контурный свет","контурный свет в темноте"],
+        "prompt" : "{} portrait photograph of a woman, looking into the camera, Canon EOS-5D",
+        "prompt_ru" : "{} портретная фотография красивой женщины, смотрит в камеру, Canon EOS-5D"
+    },
+    {
+        "category": "photo/hilokey",
+        "title" : "Hi Key / Lo Key",
+        "values" : ["high key","low key","hi key, very light","low key, dark, brutal"],
+        "values_ru" : ["высокий ключ","низкий ключ","высокий ключ, очень светлая, high key","низкий ключ, тёмная, брутальная"],
+        "prompt" : "{} portrait photograph of a woman, looking into the camera, Canon EOS-5D",
+        "prompt_ru" : "{} портретная фотография красивой женщины, смотрит в камеру, Canon EOS-5D"
+    },
+    {
+        "category": "general/lenspos",
+        "title" : "Lens Position",
+        "values" : ["view from the top","eye-level camera view","camera view from the floor"],
+        "values_ru" : ["взгляд сверху","камера на уровне глаз", "вид от пола"],
+        "prompt" : "{}, portrait studio photograph of a beautiful woman",
+        "prompt_ru" : "{}, студийный фотопортрет красивой женщины"
+    },
+    {
+        "category": "general/materials",
+        "title" : "Using different materials",
+        "values" : ["translucent material","mirror surface","reflection in the lake","rough stone","wood"],
+        "values_ru" : ["полупрозрачный материал","зеркальная поверхность","отражение в озере","каменный","деревянный"],
+        "prompt" : "statue of a magestic cat, {}",
+        "prompt_ru" : "статуя величественной кошки, {}"
+    },
+    {
+        "category": "painting/style",
+        "title" : "Using painting styles",
+        "values" : ["baroque","abstract","modern", "impressionism", "surrealism", "cubism","art nouveau","pop art"],
+        "values_ru" : ["барокко","абстракционизм","модерн", "импрессионизм", "сюрреализм", "кубизм", "арт нуво","поп-арт"],
+        "prompt" : "portrait painting of a beautiful woman, in {} style, oil on canvas",
+        "prompt_ru" : "портрет красивой женщины, в стиле {}, холст, масло"
+    },
+    {
+        "category": "painting/paint",
+        "title" : "Using different paint types",
+        "values" : ["watercolor","gouache","oil","color sketch art","digital artwork"],
+        "values_ru" : ["акварель","гуашь","масло","color sketch art","digital artwork"],
+        "prompt" : "{} painting of a  beautiful woman",
+        "prompt_ru" : "{} портрет красивой женщины"
+    },
+    {
+        "category": "painting/artists",
+        "title" : "Using artist names",
+        "values" : ["Claude Monet","Vincent Van Gogh","Kazimir Malevich","Picasso","Munch"],
+        "values_ru" : ["Клода Моне","Винсент Ван Гога","Казимира Малевича", "Пабло Пикассо", "Мунка"],
+        "prompt" : "oil painting of an old man, by {}",
+        "prompt_ru" : "пожилой старик, в стиле {}, картина маслом, "
+    },
+    {
+        "category": "general/timeline",
+        "title" : "Using time references",
+        "values" : ["1930s","1970s","1990s","2010s","2300","23rd century"],
+        "values_ru" : ["1930 год","1970 год","1990 год","2010 год", "2300 год", "23 век"],
+        "prompt" : "beautiful woman cooking dinner, {}",
+        "prompt_ru" : "красивая женщина готовит обед, {}, фото"
+    }
+]

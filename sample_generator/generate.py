@@ -6,18 +6,18 @@ import functools as funt
 import time
 import uuid
 
-output_dir = '../samples'
+output_dir = '../samples-ya'
 
-with open('description.json',encoding='utf-8') as f:
+with open('description-ya.json',encoding='utf-8') as f:
     desc = json.load(f)
 
 models = {
     'YA' : ("Yandex ART","_ru",submit_art,check),
-    'sd2' : ("Stable Diffusion 2","",funt.partial(submit_hse,model="sd2"),check_hse),
-    'sdxl' : ("Stable Diffusion XL","",funt.partial(submit_hse,model="sdxl"),check_hse),
-    'k22' : ("Kandinsky 2","",funt.partial(submit_hse,model="k22"),check_hse),
-    'flux' : ("Flux","",None,None),
-    'k3' : ("Kandinsky 3","",None,None),
+#    'sd2' : ("Stable Diffusion 2","",funt.partial(submit_hse,model="sd2"),check_hse),
+#    'sdxl' : ("Stable Diffusion XL","",funt.partial(submit_hse,model="sdxl"),check_hse),
+#    'k22' : ("Kandinsky 2","",funt.partial(submit_hse,model="k22"),check_hse),
+#    'flux' : ("Flux","",None,None),
+#    'k3' : ("Kandinsky 3","",None,None),
 }
 
 jobs = []
@@ -80,14 +80,14 @@ for obj in desc:
     with open('jobs.json','w',encoding='utf-8') as f:
         json.dump(jobs,f)
     print(" + Generating markdown")
-    metaindex[os.path.join(dir,'index.md')] = title 
+    metaindex[os.path.join(dir,'index.md')] = dir 
     with open(os.path.join(output_dir,dir,'index.md'),'a',encoding='utf-8') as f:
         f.write(f"## {title} ({cat})\n\n")
         for mname, v in items.items():
             f.write(f"### {mname}\n\n")
             l = list(v.values()) 
             for i in range(len(l[0])):
-                f.write(' | '.join([f"![]({x[i]})" for x in l])+'\n')
+                f.write(' | '.join([f"[![]({x[i]})]({x[i]})" for x in l])+'\n')
                 if i==0:
                     f.write('|'.join(['-----']*len(v.values()))+'\n')
             f.write(' | '.join(v.keys())+'\n\n')
@@ -95,6 +95,7 @@ print(" + Saving metaindex")
 with open(os.path.join(output_dir,'metaindex.md'),'w',encoding='utf-8') as f:
     f.write(f'## Metaindex\n\n')
     for p,t in metaindex.items():
-        f.write(f" * [{t}]({p})\n")
+        z = p.replace('\\','/')
+        f.write(f" * [{t}]({z})\n")
 print(" + Done")
 
