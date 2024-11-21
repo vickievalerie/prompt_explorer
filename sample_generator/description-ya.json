@@ -78,5 +78,53 @@
         "values_ru" : ["1930 год","1970 год","1990 год","2010 год", "2300 год", "23 век"],
         "prompt" : "beautiful woman cooking dinner, {}",
         "prompt_ru" : "красивая женщина готовит обед, {}, фото"
+    },
+    {
+        "category": "photo/mood",
+        "title": "Using different moods",
+        "values": ["romantic", "dramatic", "melancholic", "joyful", "mysterious"],
+         "values_ru": ["романтичная", "драматичная", "меланхоличная", "радостная", "загадочная"],
+        "prompt": "{} full-body photograph of a woman walking along the beach at sunset",
+        "prompt_ru": "{} фотография женщины в полный рост, идущей по пляжу на закате"
+    },
+    {
+        "category": "photo/weather",
+        "title": "Using different weather",
+        "values": ["sunny day", "cloudy", "rainy", "snowy", "stormy"],
+        "values_ru": ["солнечный день", "пасмурно", "дождь", "снег", "шторм"],
+        "prompt": "{}, outdoor photograph of a cyclist riding through a forest",
+        "prompt_ru": "{}, фотография велосипедиста, едущего через лес"
+    },
+    {
+        "category": "general/angle",
+        "title": "Using camera angles",
+        "values": ["low angle", "high angle", "close-up", "wide shot"],
+        "values_ru": ["низкий ракурс", "высокий ракурс", "крупный план", "широкий план"],
+        "prompt": "{}, cinematic photograph of a group of friends camping under the stars",
+        "prompt_ru": "{}, кинематографичная фотография группы друзей, отдыхающих у костра под звёздами"
+    },
+    {
+        "category": "painting/atmos",
+        "title": "Using architectural styles",
+        "values": ["modern", "gothic", "baroque", "minimalistic", "futuristic"],
+        "values_ru": ["модерн", "готический", "барокко", "минимализм", "футуристический"],
+        "prompt": "photograph of a cityscape at night in {} style, with stunning lighting effects",
+        "prompt_ru": "фотография ночного городского пейзажа в стиле {} с впечатляющим освещением"
+    },
+    {
+        "category": "painting/atmosphere",
+        "title": "Using different atmospheres",
+        "values": ["romantic", "chaotic", "dark", "mystical"],
+        "values_ru": ["романтичная", "хаотичная", "тёмная", "мистическая"],
+        "prompt": "{} painting of an enchanted forest with soft light breaking through the trees",
+        "prompt_ru": "{} картина зачарованного леса с мягким светом, пробивающимся сквозь деревья"
+    },
+    {
+        "category": "painting/illustrations",
+        "title": "Using different illustration types",
+        "values": ["sketch", "concept art", "book", "anime", "advertisement"],
+        "values_ru": ["скетч", "концепт-арт", "книжная", "аниме", "рекламная"],
+        "prompt": "{} illustration of a heroic knight standing on a cliff with a sword, dramatic background",
+        "prompt_ru": "{} иллюстрация героя-рыцаря, стоящего на утёсе с мечом на фоне драматичного пейзажа"
     }
 ]
