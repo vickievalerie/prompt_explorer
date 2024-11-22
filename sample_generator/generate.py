@@ -6,18 +6,18 @@ import functools as funt
 import time
 import uuid
 
-output_dir = '../samples-ya'
+output_dir = '../samples'
 
 with open('description-ya.json',encoding='utf-8') as f:
     desc = json.load(f)
 
 models = {
     'YA' : ("Yandex ART","_ru",submit_art,check),
-#    'sd2' : ("Stable Diffusion 2","",funt.partial(submit_hse,model="sd2"),check_hse),
-#    'sdxl' : ("Stable Diffusion XL","",funt.partial(submit_hse,model="sdxl"),check_hse),
-#    'k22' : ("Kandinsky 2","",funt.partial(submit_hse,model="k22"),check_hse),
-#    'flux' : ("Flux","",None,None),
-#    'k3' : ("Kandinsky 3","",None,None),
+    'sd2' : ("Stable Diffusion 2","",funt.partial(submit_hse,model="sd2"),check_hse),
+    'sdxl' : ("Stable Diffusion XL","",funt.partial(submit_hse,model="sdxl"),check_hse),
+    'k22' : ("Kandinsky 2","",funt.partial(submit_hse,model="k22"),check_hse),
+    'flux' : ("Flux","",None,None),
+    'k3' : ("Kandinsky 3","",None,None),
 }
 
 jobs = []

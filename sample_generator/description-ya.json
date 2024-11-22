@@ -83,7 +83,7 @@
         "category": "photo/mood",
         "title": "Using different moods",
         "values": ["romantic", "dramatic", "melancholic", "joyful", "mysterious"],
-         "values_ru": ["романтичная", "драматичная", "меланхоличная", "радостная", "загадочная"],
+        "values_ru": ["романтичная", "драматичная", "меланхоличная", "радостная", "загадочная"],
         "prompt": "{} full-body photograph of a woman walking along the beach at sunset",
         "prompt_ru": "{} фотография женщины в полный рост, идущей по пляжу на закате"
     },
